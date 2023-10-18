@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman About</title>
-</head>
-<body>
+<div class="container mt-4">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
     <h1>About Me</h1>
-    <p>Hi, my name is <?= $data['nama']; ?>. I'm <?= $data['umur']; ?> y/o, I'm <?= $data['pekerjaan']; ?>.</p>
-</body>
-</html>
+    <img src="<?= BASEURL ;?>/img/profile.jpg" alt="Profile" width="200" class="rounded-circle shadow">
+    <p>Hi, my name is <?= $data['nama']; ?>. I'm <?= $data['umur']; ?> y/o <?= $data['pekerjaan']; ?>.</p>
+    </div>
+</div>

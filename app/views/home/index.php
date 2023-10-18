@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halaman Utama</title>
-</head>
-<body>
-    <h1>Welcome di sini :)</h1>
-</body>
-</html>
+<div class="container mt-4">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+        <h1>Welcome di sini :)</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, iste blanditiis inventore voluptates magnam ea ullam totam quibusdam esse, at vel deserunt nesciunt saepe nobis repudiandae eaque temporibus unde distinctio.</p>
+    </div>
+</div>
